@@ -1,0 +1,44 @@
+$pad: 15px 30px;
+$text-align: center;
+$dark: #393636;
+$mar: 20px;
+$font: "Mukta, sans-serif";
+$hover: #800000;
+$sub-background: rgb(94, 94, 228);
+$main-background: #020305;
+
+#sliderWrapper #program-heading {
+  font-weight: bold;
+  width: 40%;
+  text-transform: uppercase;
+}
+#sliderWrapper #program-heading span {
+  color: $hover;
+}
+#sliderWrapper {
+  overflow: hidden;
+  padding: 20px 20px 100px 20px;
+}
+.slider-top {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+@media (max-width: 900px) {
+  .slider-top {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .sliderWrapper {
+    overflow: hidden;
+  }
+  .program-after {
+    margin-left: none;
+  }
+}
+
+.program-after {
+  background-color: $sub-background !important;
+  padding: 1.1px;
+  width: 100%;
+}

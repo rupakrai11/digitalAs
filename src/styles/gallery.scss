@@ -1,0 +1,62 @@
+$pad: 15px 30px;
+$text-align: center;
+$dark: #393636;
+$mar: 20px;
+$font: "Mukta, sans-serif";
+$hover: #800000;
+$sub-background: rgb(94, 94, 228);
+$main-background: #234a83;
+
+.gallery-wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 20px;
+}
+
+.gallery-top {
+  display: flex;
+  grid-template-columns: 10px;
+  column-gap: 0px;
+  position: relative;
+  align-items: center;
+  padding: 6px 0px;
+}
+.gallery-top .span {
+  color: $hover;
+}
+.gallery-hr {
+  padding: 1.1px;
+  background-color: rgb(94, 94, 228);
+  height: 1px;
+  width: 40%;
+  font-weight: bold;
+}
+@media (max-width: 900px) {
+  .gallery-top {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+.gallery-frist {
+  width: 80%;
+}
+
+.gallery-h5 {
+  color: $main-background;
+  font-weight: bold;
+}
+.gallery-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+.btn {
+  background-color: $main-background;
+  padding: 10px;
+  color: #fff;
+  margin-left: 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 1px solid $sub-background;
+}

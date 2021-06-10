@@ -1,0 +1,56 @@
+$pad: 15px 30px;
+$text-align: center;
+$dark: #393636;
+$mar: 20px;
+$font: "Mukta, sans-serif";
+$hover: #800000;
+$sub-background: rgb(94, 94, 228);
+$main-background: #020305;
+.mt {
+  margin-top: 15px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  column-gap: 50px;
+}
+
+@media (max-width: 900px) {
+  .container1 {
+    grid-template-columns: auto;
+  }
+}
+
+h2 {
+  color: #234a83;
+  font-weight: bold;
+}
+.our-team {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+}
+
+.Intro-Top {
+  display: flex;
+  align-items: center;
+}
+.Intro-Top h2 {
+  width: 40%;
+}
+.introduction-conetent {
+  box-shadow: 1px 1px 1px #234a83;
+  padding: 0px 10px 10px 0px;
+}
+.intro-after {
+  background-color: $sub-background !important;
+  padding: 1.1px;
+  width: 90%;
+}

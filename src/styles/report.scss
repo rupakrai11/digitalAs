@@ -1,0 +1,53 @@
+$pad: 15px 30px;
+$text-align: center;
+$dark: #393636;
+$mar: 20px;
+$font: "Mukta, sans-serif";
+$hover: #800000;
+$sub-background: rgb(94, 94, 228);
+$main-background: #234a83;
+
+.report-wrapper {
+  padding: 20px;
+}
+.Report-top {
+  display: flex;
+  grid-template-columns: 10px;
+  column-gap: 0px;
+  position: relative;
+  align-items: center;
+  padding: 5px 0px;
+}
+.report-h2 span {
+  color: $hover;
+}
+.report-hr {
+  padding: 1.1px;
+  background-color: rgb(94, 94, 228);
+  height: 1px;
+  width: 40%;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .Report-top {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+.report-content h5 {
+  font-weight: bold;
+}
+.report-content-whole {
+  color: $main-background;
+  padding-top: 20px;
+}
+.report-content:hover {
+  cursor: pointer;
+}
+.pdf-wrapper a {
+  text-decoration: none;
+  font-weight: bold;
+  color: $main-background;
+}

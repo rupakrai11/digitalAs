@@ -1,0 +1,23 @@
+.admin-top {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 5px 45px 0px 45px;
+  justify-content: space-between;
+}
+
+.d-left {
+  background-color: aqua;
+  width: 20%;
+}
+
+.dashboard-wrapper {
+  background-color: #0d708f;
+}
+.data-wapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+}
+.d-right {
+  width: 80%;
+}

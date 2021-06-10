@@ -1,0 +1,49 @@
+$pad: 15px 30px;
+$text-align: center;
+$dark: #393636;
+$mar: 20px;
+$font: "Mukta, sans-serif";
+$hover: #800000;
+$sub-background: rgb(94, 94, 228);
+$main-background: #234a83;
+
+.notice-wrapper {
+  padding: 20px;
+}
+.notice-top {
+  display: flex;
+  grid-template-columns: 10px;
+  column-gap: 0px;
+  position: relative;
+  align-items: center;
+}
+.notice-h2 {
+}
+.notice-hr {
+  padding: 1.1px;
+  background-color: rgb(94, 94, 228);
+  height: 1px;
+  width: 40%;
+  font-weight: bold;
+}
+.notice-top .span {
+  color: $hover;
+}
+
+@media (max-width: 900px) {
+  .notice-top {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+.notice-content h5 {
+  font-weight: bold;
+}
+.notice-content-whole {
+  color: $main-background;
+  padding-top: 20px;
+}
+.notice-content:hover {
+  cursor: pointer;
+}
